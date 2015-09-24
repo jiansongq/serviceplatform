@@ -133,6 +133,9 @@ taskalloc(void (*fn)(void*), void *arg, uint stack)
 	return t;
 }
 
+/*
+create a new task
+*/
 int
 taskcreate(void (*fn)(void*), void *arg, uint stack)
 {
